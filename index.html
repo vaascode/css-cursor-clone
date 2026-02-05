@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Cursor_demo </title>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+  <!--Header-Nav-section -->
+<header class="all-container">
+  <nav>
+<div class="cursor_logo brand-icon">
+  <svg fill="none" class="w-[95.37px] lg:w-[95.75px]" viewBox="0 0 2193 545" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible"><g fill="white"><path d="m466.383 137.073-206.469-119.2034c-6.63-3.8287-14.811-3.8287-21.441 0l-206.4586 119.2034c-5.5734 3.218-9.0144 9.169-9.0144 15.615v240.375c0 6.436 3.441 12.397 9.0144 15.615l206.4686 119.203c6.63 3.829 14.811 3.829 21.441 0l206.468-119.203c5.574-3.218 9.015-9.17 9.015-15.615v-240.375c0-6.436-3.441-12.397-9.015-15.615zm-12.969 25.25-199.316 345.223c-1.347 2.326-4.904 1.376-4.904-1.319v-226.048c0-4.517-2.414-8.695-6.33-10.963l-195.7577-113.019c-2.3263-1.347-1.3764-4.905 1.3182-4.905h398.6305c5.661 0 9.199 6.136 6.368 11.041h-.009z"></path><path d="m723.253 148.84h87.856v48.397h-84.881c-45.789 0-81.527 26.432-81.527 82.273s35.738 82.273 81.527 82.273h84.881v48.397h-91.578c-76.691 0-131.039-45.043-131.039-130.66 0-85.618 58.07-130.661 134.761-130.661z"></path><path d="m855.781 148.84h54.348v159.7c0 39.828 18.242 58.448 61.056 58.448 42.815 0 61.055-18.61 61.055-58.448v-159.7h54.35v170.866c0 58.071-36.85 94.933-115.405 94.933-78.551 0-115.404-37.231-115.404-95.301z"></path><path d="m1370.62 222.913c0 29.04-16.75 51.372-39.09 61.056v.746c23.45 3.354 35.37 20.103 35.73 42.814l1.12 82.641h-54.35l-1.11-73.705c-.37-16.381-10.06-26.432-29.41-26.432h-90.47v100.137h-54.34v-261.33h150.02c49.15 0 81.9 24.94 81.9 74.083zm-54.73 7.454c0-22.333-11.91-34.623-34.24-34.623h-88.61v69.236h89.34c20.47 0 33.51-12.281 33.51-34.623z"></path><path d="m1576.09 333.85c0-18.61-11.91-26.432-29.77-27.915l-60.31-5.583c-52.12-4.837-79.3-25.318-79.3-74.83 0-49.511 33.51-76.69 81.53-76.69h133.27v46.904h-129.55c-18.61 0-30.52 9.683-30.52 28.294 0 18.61 12.28 27.547 30.9 29.04l61.42 5.214c46.54 4.091 77.06 25.318 77.06 75.198s-32.38 76.69-78.17 76.69h-139.23v-46.904h134.01c17.5 0 28.66-11.912 28.66-29.408z"></path><path d="m1789.79 144.373c81.89 0 133.65 52.487 133.65 134.761 0 82.273-53.98 135.506-135.88 135.506s-133.65-53.233-133.65-135.506c0-82.274 53.98-134.761 135.88-134.761zm77.43 135.129c0-55.095-32.02-87.479-78.56-87.479-46.53 0-78.55 32.384-78.55 87.479 0 55.094 32.02 87.478 78.55 87.478 46.54 0 78.56-32.384 78.56-87.478z"></path><path d="m2192.95 222.913c0 29.04-16.75 51.372-39.1 61.056v.746c23.46 3.354 35.37 20.103 35.74 42.814l1.12 82.641h-54.35l-1.12-73.705c-.36-16.381-10.05-26.432-29.4-26.432h-90.47v100.137h-54.35v-261.33h150.03c49.14 0 81.9 24.94 81.9 74.083zm-54.73 7.454c0-22.333-11.91-34.623-34.25-34.623h-88.6v69.236h89.34c20.47 0 33.51-12.281 33.51-34.623z"></path></g></svg>
+</div>
+
+
+      <div class="nav-section">
+        <ul>
+          <li class="child1 nav-item">Product</li>
+          <li class="child2 nav-item">Enterprise</li>
+          <li class="child3 nav-item">Pricing</li>
+          <li class="child4 nav-item">Resources</li>
+        </ul>
+      </div>
+
+      <div class="nav-btn nav-buttons">
+          <button class="btn btn-signin">Sign in</button>
+          <button class="btn btn-download">Download</button>
+      </div>
+  </nav>
+</header>
+
+  <!-- Hero-section -->
+    <main>
+      <section class="hero-section cfont all-container">
+          <h1 class="h1-heading">Built to make you extraordinarily productive, Cursor is the best way to code with AI.</h1>
+          
+          <button class="btn" id="mac-download"> Download for macOS
+            <span><svg class="download-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M19 10l-7 7-7-7M5 21h14"/>
+            </svg></span></button>
+          <div>
+            <img src="/cursor-brand-assets/cursor hero section.png" alt="Cursor Editor">
+          </div>
+      </section>
+
+  <!-- Trusted-brands -->
+  <section class="dev-section trusted-section cfont all-container">
+    <p>Trusted every day by millions of professional developers.</p>
+    <div class="trusted-brands trusted-icon-holder">
+        <div class="trusted-dev trusted-icon">
+          <img src="/logos/stripe.svg" alt="Stripe">
+        </div>
+        <div class="trusted-dev">
+          <img src="/logos/openai.svg" alt="OpenAI">
+        </div>
+        <div class="trusted-dev">
+          <img src="/logos/linear.svg" alt="Linear">
+        </div>
+        <div class="trusted-dev">
+          <img src="/logos/datadog.svg" alt="DATADOG">
+        </div>
+        <div class="trusted-dev">
+          <img src="/logos/nvidia.svg" alt="nvidia">
+        </div>
+        <div class="trusted-dev">
+          <img src="/logos/figma.svg" alt="Figma">
+        </div>
+        <div class="trusted-dev">
+          <img src="/logos/ramp.svg" alt="ramp">
+        </div>
+        <div class="trusted-dev">
+          <img src="/logos/adobe.svg" alt="Adobe">
+        </div>
+    </div>    
+  </section>
+
+<!-- Agent section  -->
+  <section class="section-1 about-cursor cfont all-container">
+    <div class="about-card">
+      <div class="about-card-description">
+        <p class="about-desc-main-text">Agent turns ideas into code</p>
+        <p class="about-desc-secondary-text">A human-AI programmer, orders of magnitude more effective than any developer alone.</p>
+        <div class="btn-tertiary learn-btn">Learn about Agent → </div>
+      </div>
+      <img src="/cursor-brand-assets/image-1.png" alt="image-1">
+    </div>
+    
+    <div class="about-card row-reverse">
+          <div class="about-card-description">
+            <p class="about-desc-main-text">Agent turns ideas into code</p>
+            <p class="about-desc-secondary-text">A human-AI programmer, orders of magnitude more effective than any developer alone.</p>
+            <div class="btn-tertiary learn-btn">Learn about Tab → </div>
+          </div>
+          <img src="/cursor-brand-assets/image-2.png" alt="image-1">
+    </div>
+
+    <div class="about-card">
+      <div class="about-card-description">
+        <p class="about-desc-main-text">Agent turns ideas into code</p>
+        <p class="about-desc-secondary-text">A human-AI programmer, orders of magnitude more effective than any developer alone.</p>
+        <div class="btn-tertiary learn-btn">Learn about Cursor's ecosystem → </div>
+      </div>
+      <img src="/cursor-brand-assets/image-3.png" alt="image-1">
+    </div>
+  </section>
+
+
+
+  <!-- Testimonails-section  -->
+
+  <section class="testimonials-section cfont all-container">
+  <div class="container">
+    <h2 class="section-title">The new way to build software.</h2>
+
+    <div class="t-grid">
+
+      <div class="t-card">
+        <p class="quote">It was night and day from one batch to another, adoption went from single digits to over 80%. It just spread like wildfire, all the best builders were using Cursor.</p>
+        <div class="user-info">
+          <img src="/user-info/diana-hu-avatar.png" alt="diana-hu-avatar" class="avatar">
+          <div class="user-details">
+            <span class="name">Diana Hu</span>
+            <span class="role">General Partner, Y Combinator</span>
+          </div>
+        </div>
+      </div> <div class="t-card">
+        <p class="quote">The most useful AI tool that I currently pay for, hands down, is Cursor. It's fast, autocompletes when and where you need it to, handles brackets properly, sensible keyboard shortcuts, bring-your-own-model... everything is well put together.</p>
+        <div class="user-info">
+          <img src="/user-info/shadcn-avatar.png" alt="shadcn" class="avatar">
+          <div class="user-details">
+            <span class="name">shadcn</span>
+            <span class="role">Creator of shadcn/ui</span>
+          </div>
+        </div>
+      </div> <div class="t-card">
+        <p class="quote">The best LLM applications have an autonomy slider: you control how much independence to give the AI. In Cursor, you can do Tab completion, Cmd+K for targeted edits, or you can let it rip with the full autonomy agentic version.</p>
+        <div class="user-info">
+          <img src="/user-info/andrej-karpathy-avatar.png" alt="andrej-karpathy-avatar" class="avatar">
+          <div class="user-details">
+            <span class="name">Andrej Karpathy</span>
+            <span class="role">CEO, Eureka Labs</span>
+          </div>
+        </div>
+      </div> <div class="t-card">
+        <p class="quote">Cursor quickly grew from hundreds to thousands of extremely enthusiastic Stripe employees. We spend more on R&D and software creation than any other undertaking, and there's significant economic outcomes when making that process more efficient and productive.</p>
+        <div class="user-info">
+          <img src="/user-info/patrick-collison-avatar.png" alt="Patrick Collison-avatar" class="avatar">
+          <div class="user-details">
+            <span class="name">Patrick Collison</span>
+            <span class="role">Co‑Founder & CEO, Stripe</span>
+          </div>
+        </div>
+      </div> <div class="t-card">
+        <p class="quote">It's official. <br> I hate vibe coding. I love Cursor tab coding. <br> It's wild.</p>
+        <div class="user-info">
+          <img src="/user-info/theprimeagen-avatar.png" alt="ThePrimeagen-avatar" class="avatar">
+          <div class="user-details">
+            <span class="name">ThePrimeagen</span>
+            <span class="role">@ThePrimeagen</span>
+          </div>
+        </div>
+      </div> <div class="t-card">
+        <p class="quote">It's definitely becoming more fun to be a programmer. It's less about digging through pages and more about what you want to happen. We are at the 1% of what's possible, and it's in interactive experiences like Cursor where models like GPT-5 shine brightest.</p>
+        <div class="user-info">
+          <img src="/user-info/greg-brockman-avatar.jpg" alt="Greg Brockman-avatar" class="avatar">
+          <div class="user-details">
+            <span class="name">Greg Brockman</span>
+            <span class="role">President, OpenAI</span>
+          </div>
+        </div>
+      </div> </div> </div> 
+    
+    </section>
+
+  <!-- Frontier section -->
+    <section class="frontier-section cfont all-container">
+  <div class="container">
+    <h2 class="section-title-small">Stay on the frontier</h2>
+    
+    <div class="frontier-grid">
+      <div class="frontier-card">
+        <div class="card-text">
+          <h3>Access the best models</h3>
+          <p>Choose between every cutting-edge model from OpenAI, Anthropic, Gemini, and xAI.</p>
+          <a href="https://cursor.com/docs/models" class="orange-link">Explore models &rarr; </a>
+        </div>
+        <div class="card-visual model-list">
+          <img src="/frontier-section/SCR-20260204-mspb.png" alt="Model Selection UI">
+        </div>
+      </div>
+
+      <div class="frontier-card">
+        <div class="card-text">
+          <h3>Complete codebase understanding</h3>
+          <p>Cursor learns how your codebase works, no matter the scale or complexity.</p>
+          <a href="https://cursor.com/docs/context/semantic-search" class="orange-link">Learn about semantic search &rarr; </a>
+        </div>
+        <div class="card-visual search-ui">
+          <img src="/frontier-section/SCR-20260204-msnd.png" alt="Semantic Search UI">
+        </div>
+      </div>
+
+      <div class="frontier-card">
+        <div class="card-text">
+          <h3>Develop enduring software</h3>
+          <p>Trusted by over half of the Fortune 500 to accelerate development, securely and at scale.</p>
+          <a href="#" class="orange-link">Explore enterprise &rarr;</a>
+        </div>
+        <div class="enterprise-img">
+          <img src="/frontier-section/homepage-team-photo-1.jpg" alt="Developer working">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- chanellog-section -->
+  <section class="changelog-section cfont all-container">
+  <div class="container">
+    <h2 class="changelog-title">Changelog</h2>
+    
+    <div class="changelog-grid">
+      <div class="changelog-card">
+        <div class="card-header">
+          <span class="version-badge">2.4</span>
+          <span class="card-date">Jan 22, 2026</span>
+        </div>
+        <h3 class="card-heading">Subagents, Skills, and Image Generation</h3>
+      </div>
+
+      <div class="changelog-card">
+        <div class="card-header">
+          <span class="card-date">Jan 16, 2026</span>
+        </div>
+        <h3 class="card-heading">CLI Agent Modes and Cloud Handoff</h3>
+      </div>
+
+      <div class="changelog-card">
+        <div class="card-header">
+          <span class="card-date">Jan 8, 2026</span>
+        </div>
+        <h3 class="card-heading">New CLI Features and Improved CLI Performance</h3>
+      </div>
+
+      <div class="changelog-card">
+        <div class="card-header">
+          <span class="version-badge">2.3</span>
+          <span class="card-date">Dec 22, 2025</span>
+        </div>
+        <h3 class="card-heading">Layout Customization and Stability Improvements</h3>
+      </div>
+    </div>
+
+    <a href="#" class="changelog-footer-link">See what's new in Cursor &rarr;</a>
+  </div>
+</section>
+
+<!-- Team-Focused -->
+
+  <section class="section-1 about-cursor cfont all-container">
+      <div class="about-card">
+        <div class="about-card-description team-content">
+          <p class="about-desc-main-text team-content">Cursor is an applied research team focused on building the future of software development.</p>
+          <div class="btn-tertiary join-btn learn-btn">Join us &rarr;</div>
+        </div>
+        <img src="/cursor-brand-assets/homepage-team-photo.webp" alt="Cursor team HQ" class="team-image-wrapper">
+      </div>
+  </section>
+
+<!-- Highlight-Section -->
+
+  <section class="highlights-section cfont">
+  <div class="container">
+    <div class="highlights-layout">
+      <div class="highlights-title">
+        <span>Recent highlights</span>
+      </div>
+
+      <div class="highlights-content">
+        <div class="highlight-card">
+          <h3>Introducing Cursor 2.0 and Composer</h3>
+          <p>A new interface and our first coding model, both purpose-built for working with agents.</p>
+          <span class="card-meta">Product &middot; Oct 29, 2025</span>
+        </div>
+
+        <div class="highlight-card">
+          <h3>Improving Cursor Tab with online RL</h3>
+          <p>Our new Tab model makes 21% fewer suggestions while having 28% higher accept rate.</p>
+          <span class="card-meta">Research &middot; Sep 12, 2025</span>
+        </div>
+
+        <div class="highlight-card">
+          <h3>1.5x faster MoE training with custom MXFP8 kernels</h3>
+          <p>Achieving a 3.5x MoE layer speedup with a complete rebuild for Blackwell GPUs.</p>
+          <span class="card-meta">Research &middot; Aug 29, 2025</span>
+        </div>
+
+      <div class="btn-tertiary join-btn learn-btn">View more posts &rarr;</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Download-now-section -->
+  <section class="cta-final-section cfont">
+    <div class="cta-content">
+      <h2 class="cta-heading">Try Cursor now.</h2>
+      
+      <button class="btn-download-large">
+        Download for macOS 
+        <svg class="download-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3V17M18 11L12 17L6 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M5 21H19" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+</main>
+<!-- FOoter -->
+  <footer class="site-footer cfont">
+    <div class="footer-grid">
+      <nav class="footer-column">
+        <h4>Product</h4>
+        <a href="https://cursor.com/features">Features</a>
+        <a href="https://cursor.com/enterprise">Enterprise</a>
+        <a href="https://status.cursor.com/">Web Agents</a>
+        <a href="https://cursor.com/bugbot">Bugbot</a>
+        <a href="https://cursor.com/cli">CLI</a>
+        <a href="https://cursor.com/pricing">Pricing</a>
+      </nav>
+
+      <nav class="footer-column">
+        <h4>Resources</h4>
+        <a href="https://cursor.com/download">Download</a>
+        <a href="https://cursor.com/changelog">Changelog</a>
+        <a href="https://cursor.com/docs">Docs</a>
+        <a href="https://cursor.com/learn">Learn</a>
+        <a href="https://forum.cursor.com/">Forum</a>
+        <a href="https://status.cursor.com/">Status</a>
+      </nav>
+
+      <nav class="footer-column">
+        <h4>Company</h4>
+        <a href="https://cursor.com/careers">Careers</a>
+        <a href="https://cursor.com/blog">Blog</a>
+        <a href="https://cursor.com/community">Community</a>
+        <a href="https://cursor.com/workshops">Workshops</a>
+        <a href="https://cursor.com/students">Students</a>
+        <a href="https://cursor.com/brand">Brand</a>
+      </nav>
+
+      <nav class="footer-column">
+        <h4>Legal</h4>
+        <a href="https://cursor.com/terms-of-service">Terms of Service</a>
+        <a href="https://cursor.com/privacy">Privacy Policy</a>
+        <a href="https://cursor.com/data-use">Data Use</a>
+        <a href="https://cursor.com/security">Security</a>
+      </nav>
+
+      <nav class="footer-column">
+        <h4>Connect</h4>
+        <a href="https://x.com/cursor_ai">X</a>
+        <a href="https://www.linkedin.com/company/cursorai">LinkedIn</a>
+        <a href="https://www.youtube.com/@cursor_ai">YouTube</a>
+      </nav>
+    </div>
+
+    <!-- Bottom footer -->
+
+    <div class="footer-bottom">
+      <div class="legal-info">
+        <span>&copy; 2026 Anysphere, Inc.</span>
+        <span class="soc2-badge">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+    <path d="M9 12l2 2 4-4"></path>
+  </svg>
+  SOC 2 Certified
+</span>
+      </div>
+  <div class="footer-settings">
+  <div class="theme-pill-container">
+    <button class="pill-btn active" title="System">
+      <svg width="10" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+    </button>
+    <button class="pill-btn" title="Light">
+      <svg width="10" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+    </button>
+    <button class="pill-btn" title="Dark">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+    </button>
+  </div>
+
+  <button class="language-pill">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+    English
+    <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="arrow"><path d="M6 9l6 6 6-6"></path></svg>
+  </button>
+</div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
