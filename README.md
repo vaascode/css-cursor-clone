@@ -1,10 +1,15 @@
-Live demo - https://vcursor-clone.netlify.app/
-fonts used - https://github.com/imjac0b/CursorGothic/tree/main/fonts
+# Cursor-Clone #
 
 
 
 
-Screenshots :
+### **Live demo** - [Netlify](https://vcursor-clone.netlify.app/)
+### **fonts used** - [GitHub](https://github.com/imjac0b/CursorGothic/tree/main/fonts)
+
+
+
+
+**Screenshots** :
 
 
 
